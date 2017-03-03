@@ -1,8 +1,8 @@
 class Minesweeper < Formula
   desc "An implementation of minesweeper that runs in the terminal"
   homepage "http://nikhilprasad.com"
-  url "https://github.com/globmont/minesweeper/archive/v1.32.tar.gz"
-  sha256 "5cbfab5c48b4f4c0bd2455b85c790b5c681c9593a5dc48bab237a1a8514bb2b5" # obtained via brew fetch --force minesweeper.rb
+  url "https://github.com/globmont/minesweeper/archive/v1.33.tar.gz"
+  sha256 "94ab4a3d03fac11ac6b0ebfd24d70cc662cc9b0f208d08af9c05f7dbec6446be" # obtained via brew fetch --force minesweeper.rb
 
   depends_on :python3
 
