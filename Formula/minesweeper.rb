@@ -1,8 +1,8 @@
 class Minesweeper < Formula
   desc "An implementation of minesweeper that runs in the terminal"
   homepage "http://nikhilprasad.com"
-  url "https://github.com/globmont/minesweeper/archive/v1.1.tar.gz"
-  sha256 "97da8f29ee2b56a3aa67f52d2236692c87d646d0bf98128dac3bd5da9f7e64d4"
+  url "https://github.com/globmont/minesweeper/archive/v1.2.tar.gz"
+  sha256 "6c437377f7206d0f31fdf5e975f53bf83108e3cf789528b53b378778714eda7c"
 
   depends_on :python3
 
@@ -22,6 +22,6 @@ class Minesweeper < Formula
     #
     # The installed folder is not in the path, so use the entire path to any
     # executables being tested: `system "#{bin}/program", "do", "something"`.
-    system "minesweeper -h"
+    system "minesweeper"
   end
 end
