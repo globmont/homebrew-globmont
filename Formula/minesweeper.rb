@@ -2,7 +2,7 @@ class Minesweeper < Formula
   desc "An implementation of minesweeper that runs in the terminal"
   homepage "http://nikhilprasad.com"
   url "https://github.com/globmont/minesweeper/archive/v1.2.tar.gz"
-  sha256 "6c437377f7206d0f31fdf5e975f53bf83108e3cf789528b53b378778714eda7c"
+  sha256 "e16354f591ceb6615999d3fbc0f901c8a0f1e3cb78dae4d7984a78a965867bff"
 
   depends_on :python3
 
