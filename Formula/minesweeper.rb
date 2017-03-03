@@ -12,7 +12,9 @@ class Minesweeper < Formula
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
-
+    ENV.prepend_create_path "PYTHONPATH", libexec
+    bin.install "minesweeper"
+    bin.env_script_all_files(libexec/"bin", :PYTHONPATH => ENV["PYTHONPATH"])
     # Remove unrecognized options if warned by configure
     # system "./configure", "--disable-debug",
     #                       "--disable-dependency-tracking",
